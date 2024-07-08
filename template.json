@@ -1,0 +1,61 @@
+{
+  "Actor": {
+    "templates": {
+      "base": {
+        "attributes": {
+          "body": { "value": 0, "min": 1, "max": 6 },
+          "charm": { "value": 0, "min": 1, "max": 6 },
+          "command": { "value": 0, "min": 1, "max": 6 },
+          "coordination": { "value": 0, "min": 1, "max": 6 },
+          "knowledge": { "value": 0, "min": 1, "max": 6 },
+          "sense": { "value": 0, "min": 1, "max": 6 }
+        }
+      }
+    },
+    "character": {
+      "skills": {
+        "athletics": { "value": 0, "e": false, "m": false },
+        "endurance": { "value": 0, "e": false, "m": false },
+        "fight": { "value": 0, "e": false, "m": false },
+        "parry": { "value": 0, "e": false, "m": false },
+        "run": { "value": 0, "e": false, "m": false },
+        "vigor": { "value": 0, "e": false, "m": false },
+        "fascinate": { "value": 0, "e": false, "m": false },
+        "graces": { "value": 0, "e": false, "m": false },
+        "jest": { "value": 0, "e": false, "m": false },
+        "lie": { "value": 0, "e": false, "m": false },
+        "plead": { "value": 0, "e": false, "m": false },
+        "charm_custom": { "value": 0, "e": false, "m": false },
+        "haggle": { "value": 0, "e": false, "m": false },
+        "inspire": { "value": 0, "e": false, "m": false },
+        "intimidate": { "value": 0, "e": false, "m": false },
+        "perform_custom": { "value": 0, "e": false, "m": false },
+        "coordination_custom_1": { "value": 0, "e": false, "m": false },
+        "coordination_custom_2": { "value": 0, "e": false, "m": false },
+        "climb": { "value": 0, "e": false, "m": false },
+        "dodge": { "value": 0, "e": false, "m": false },
+        "ride": { "value": 0, "e": false, "m": false },
+        "stealth": { "value": 0, "e": false, "m": false },
+        "perform_custom_2": { "value": 0, "e": false, "m": false },
+        "weapon_skill_custom": { "value": 0, "e": false, "m": false },
+        "knowledge_custom_1": { "value": 0, "e": false, "m": false },
+        "knowledge_custom_2": { "value": 0, "e": false, "m": false },
+        "counterspell": { "value": 0, "e": false, "m": false },
+        "healing": { "value": 0, "e": false, "m": false },
+        "lore": { "value": 0, "e": false, "m": false },
+        "strategy": { "value": 0, "e": false, "m": false },
+        "tactics": { "value": 0, "e": false, "m": false },
+        "language_native": { "value": 0, "e": false, "m": false },
+        "language_custom": { "value": 0, "e": false, "m": false },
+        "student_of": { "value": 0, "e": false, "m": false },
+        "direction": { "value": 0, "e": false, "m": false },
+        "eerie": { "value": 0, "e": false, "m": false },
+        "empathy": { "value": 0, "e": false, "m": false },
+        "hearing": { "value": 0, "e": false, "m": false },
+        "scrutinize": { "value": 0, "e": false, "m": false },
+        "sight": { "value": 0, "e": false, "m": false },
+        "taste_touch_smell": { "value": 0, "e": false, "m": false }
+      }
+    }
+  }
+}

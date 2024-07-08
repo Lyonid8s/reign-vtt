@@ -1,0 +1,24 @@
+<form>
+  <div class="sheet-header">
+    <h1>{{name}}</h1>
+    <div class="sheet-description">{{data.description}}</div>
+  </div>
+  <div class="sheet-body">
+    <div class="attributes">
+      {{#each data.attributes}}
+        <div class="attribute">
+          <label>{{this.label}}</label>
+          <span>{{this.value}}</span>
+        </div>
+      {{/each}}
+    </div>
+    <div class="actions">
+      {{#each data.actions}}
+        <div class="action">
+          <label>{{this.label}}</label>
+          <span>{{this.value}}</span>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</form>

@@ -1,0 +1,29 @@
+{
+  "REIGN": {
+    "CharacterSheet": {
+      "Header": {
+        "PlayerName": "Player Name",
+        "CharacterName": "Character Name",
+        "Company": "Company",
+        "Mission": "Mission",
+        "Duty": "Duty",
+        "Craving": "Craving"
+      },
+      "Attributes": {
+        "Body": "BODY",
+        "Charm": "CHARM",
+        "Command": "COMMAND"
+      },
+      "Skills": {
+        "Athletics": "ATHLETICS",
+        "Fascinate": "FASCINATE",
+        "Haggle": "HAGGLE"
+      },
+      "Sections": {
+        "Advantages": "Advantages",
+        "Problems": "Problems",
+        "Wealth": "Wealth"
+      }
+    }
+  }
+}

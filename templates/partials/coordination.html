@@ -1,0 +1,166 @@
+<div class="attribute-column">
+  <table>
+    <thead>
+      <tr>
+        <th>Stat</th>
+        <th>Value</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>COORDINATION</td>
+        <td class="number-input">
+          <input type="number" name="system.attributes.coordination.value" value="{{system.attributes.coordination.value}}" min="1" max="6" class="number-attribute">
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Value</th>
+        <th>E</th>
+        <th>M</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="skill-row">
+        <td>Climb</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.climb.value" value="{{system.skills.climb.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.climb.e" {{#if system.skills.climb.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.climb.m" {{#if system.skills.climb.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Dodge</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.dodge.value" value="{{system.skills.dodge.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.dodge.e" {{#if system.skills.dodge.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.dodge.m" {{#if system.skills.dodge.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Ride</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.ride.value" value="{{system.skills.ride.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.ride.e" {{#if system.skills.ride.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.ride.m" {{#if system.skills.ride.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Stealth</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.stealth.value" value="{{system.skills.stealth.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.stealth.e" {{#if system.skills.stealth.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.stealth.m" {{#if system.skills.stealth.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Perform</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.perform1.value" value="{{system.skills.perform1.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform1.e" {{#if system.skills.perform1.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform1.m" {{#if system.skills.perform1.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td colspan="4"><input type="text" name="system.skills.perform1.identifier" value="{{system.skills.perform1.identifier}}" placeholder="blank" class="skill-identifier small-input"></td>
+      </tr>
+      <tr class="skill-row">
+        <td>Perform</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.perform2.value" value="{{system.skills.perform2.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform2.e" {{#if system.skills.perform2.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform2.m" {{#if system.skills.perform2.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td colspan="4"><input type="text" name="system.skills.perform2.identifier" value="{{system.skills.perform2.identifier}}" placeholder="blank" class="skill-identifier small-input"></td>
+      </tr>
+      <tr class="skill-row">
+        <td>Perform</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.perform3.value" value="{{system.skills.perform3.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform3.e" {{#if system.skills.perform3.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform3.m" {{#if system.skills.perform3.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td colspan="4"><input type="text" name="system.skills.perform3.identifier" value="{{system.skills.perform3.identifier}}" placeholder="blank" class="skill-identifier small-input"></td>
+      </tr>
+      <tr class="skill-row">
+        <td>Weapon Skill</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.weapon_skill.value" value="{{system.skills.weapon_skill.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.weapon_skill.e" {{#if system.skills.weapon_skill.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.weapon_skill.m" {{#if system.skills.weapon_skill.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td colspan="4"><input type="text" name="system.skills.weapon_skill.identifier" value="{{system.skills.weapon_skill.identifier}}" placeholder="blank" class="skill-identifier small-input"></td>
+      </tr>
+      <tr class="skill-row-template">
+        <td><input type="text" name="newSkillName1" placeholder="Skill Name" class="skill-name"></td>
+        <td class="number-input">
+          <input type="number" name="newSkillValue1" value="0" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillE1">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillM1">
+        </td>
+      </tr>
+      <tr class="skill-row-template">
+        <td><input type="text" name="newSkillName2" placeholder="Skill Name" class="skill-name"></td>
+        <td class="number-input">
+          <input type="number" name="newSkillValue2" value="0" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillE2">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillM2">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

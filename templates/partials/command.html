@@ -1,0 +1,113 @@
+<div class="attribute-column">
+  <table>
+    <thead>
+      <tr>
+        <th>Stat</th>
+        <th>Value</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>COMMAND</td>
+        <td class="number-input">
+          <input type="number" name="system.attributes.command.value" value="{{system.attributes.command.value}}" min="1" max="6" class="number-attribute">
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Value</th>
+        <th>E</th>
+        <th>M</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="skill-row">
+        <td>Haggle</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.haggle.value" value="{{system.skills.haggle.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.haggle.e" {{#if system.skills.haggle.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.haggle.m" {{#if system.skills.haggle.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Inspire</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.inspire.value" value="{{system.skills.inspire.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.inspire.e" {{#if system.skills.inspire.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.inspire.m" {{#if system.skills.inspire.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Intimidate</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.intimidate.value" value="{{system.skills.intimidate.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.intimidate.e" {{#if system.skills.intimidate.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.intimidate.m" {{#if system.skills.intimidate.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Perform</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.perform.value" value="{{system.skills.perform.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform.e" {{#if system.skills.perform.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.perform.m" {{#if system.skills.perform.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td colspan="4"><input type="text" name="system.skills.perform.identifier" value="{{system.skills.perform.identifier}}" placeholder="blank" class="skill-identifier small-input"></td>
+      </tr>
+      <tr class="skill-row-template">
+        <td><input type="text" name="newSkillName1" placeholder="Skill Name" class="skill-name"></td>
+        <td class="number-input">
+          <input type="number" name="newSkillValue1" value="0" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillE1">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillM1">
+        </td>
+      </tr>
+      <tr class="skill-row-template">
+        <td><input type="text" name="newSkillName2" placeholder="Skill Name" class="skill-name"></td>
+        <td class="number-input">
+          <input type="number" name="newSkillValue2" value="0" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillE2">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillM2">
+        </td>
+      </tr>
+      <!-- Invisible row to align the table height with others -->
+      <tr class="invisible-row" style="display: none;">
+        <td colspan="4"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

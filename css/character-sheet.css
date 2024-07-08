@@ -1,0 +1,96 @@
+/* General styles for the character sheet */
+.attribute-column {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.attribute-column table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attribute-column table th,
+.attribute-column table td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.attribute-column table th {
+  background-color: #f9f9f9;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.attribute-column table td {
+  text-align: left; /* Align text to the left */
+}
+
+.attribute-column table .number-input input[type="number"],
+.attribute-column table .checkboxes input[type="checkbox"],
+.attribute-column table .skill-identifier,
+.attribute-column table .skill-name {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.attribute-column table .checkboxes {
+  vertical-align: middle;
+}
+
+/* Invisible row style */
+.invisible-row {
+  height: 50px; /* Adjust height as necessary */
+}
+
+/* Header row style */
+.header-row {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+}
+
+/* Styles for the number input fields */
+.number-input input[type="number"] {
+  width: 50px;
+}
+
+/* Styles for the checkboxes */
+.checkboxes input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+/* Ensuring vertical alignment of E and M checkboxes */
+.checkboxes {
+  vertical-align: middle;
+}
+
+/* Styles for the skill identifier input */
+.skill-identifier {
+  width: auto;
+}
+
+/* Smaller width for the perform identifier input */
+.small-input {
+  width: 60px;
+}
+
+/* Ensure consistent height for table rows */
+.attribute-column table td,
+.attribute-column table th {
+  height: 40px; /* Adjust height as necessary */
+}
+
+/* Align text in headers to the left */
+.attribute-column table th {
+  text-align: left;
+}
+
+/* Adjust padding and margin for better alignment */
+.attribute-column table th,
+.attribute-column table td {
+  padding: 8px;
+  margin: 0;
+}

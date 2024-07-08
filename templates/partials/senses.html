@@ -1,0 +1,143 @@
+<div class="attribute-column">
+  <table>
+    <thead>
+      <tr>
+        <th>Stat</th>
+        <th>Value</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SENSES</td>
+        <td class="number-input">
+          <input type="number" name="system.attributes.senses.value" value="{{system.attributes.senses.value}}" min="1" max="6" class="number-attribute">
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Value</th>
+        <th>E</th>
+        <th>M</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="skill-row">
+        <td>Direction</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.direction.value" value="{{system.skills.direction.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.direction.e" {{#if system.skills.direction.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.direction.m" {{#if system.skills.direction.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Eerie</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.eerie.value" value="{{system.skills.eerie.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.eerie.e" {{#if system.skills.eerie.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.eerie.m" {{#if system.skills.eerie.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Empathy</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.empathy.value" value="{{system.skills.empathy.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.empathy.e" {{#if system.skills.empathy.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.empathy.m" {{#if system.skills.empathy.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Hearing</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.hearing.value" value="{{system.skills.hearing.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.hearing.e" {{#if system.skills.hearing.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.hearing.m" {{#if system.skills.hearing.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Scrutinize</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.scrutinize.value" value="{{system.skills.scrutinize.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.scrutinize.e" {{#if system.skills.scrutinize.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.scrutinize.m" {{#if system.skills.scrutinize.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Sight</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.sight.value" value="{{system.skills.sight.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.sight.e" {{#if system.skills.sight.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.sight.m" {{#if system.skills.sight.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Taste, Touch & Smell</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.taste_touch_smell.value" value="{{system.skills.taste_touch_smell.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.taste_touch_smell.e" {{#if system.skills.taste_touch_smell.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.taste_touch_smell.m" {{#if system.skills.taste_touch_smell.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row-template">
+        <td><input type="text" name="newSkillName" placeholder="Skill Name" class="skill-name"></td>
+        <td class="number-input">
+          <input type="number" name="newSkillValue" value="0" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillE">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillM">
+        </td>
+      </tr>
+      <!-- Invisible rows to align the table height with others -->
+      <tr class="invisible-row" style="visibility: hidden;">
+        <td colspan="4"></td>
+      </tr>
+      <tr class="invisible-row" style="visibility: hidden;">
+        <td colspan="4"></td>
+      </tr>
+      <tr class="invisible-row" style="visibility: hidden;">
+        <td colspan="4"></td>
+      </tr>
+      <tr class="invisible-row" style="visibility: hidden;">
+        <td colspan="4"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

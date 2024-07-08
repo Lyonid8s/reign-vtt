@@ -1,0 +1,118 @@
+<div class="attribute-column">
+  <table>
+    <thead>
+      <tr>
+        <th>Stat</th>
+        <th>Value</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>BODY</td>
+        <td class="number-input">
+          <input type="number" name="system.attributes.body.value" value="{{system.attributes.body.value}}" min="1" max="6" class="number-attribute">
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Value</th>
+        <th>E</th>
+        <th>M</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="skill-row">
+        <td>Athletics</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.athletics.value" value="{{system.skills.athletics.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.athletics.e" {{#if system.skills.athletics.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.athletics.m" {{#if system.skills.athletics.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Endurance</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.endurance.value" value="{{system.skills.endurance.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.endurance.e" {{#if system.skills.endurance.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.endurance.m" {{#if system.skills.endurance.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Fight</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.fight.value" value="{{system.skills.fight.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.fight.e" {{#if system.skills.fight.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.fight.m" {{#if system.skills.fight.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Parry</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.parry.value" value="{{system.skills.parry.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.parry.e" {{#if system.skills.parry.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.parry.m" {{#if system.skills.parry.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Run</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.run.value" value="{{system.skills.run.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.run.e" {{#if system.skills.run.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.run.m" {{#if system.skills.run.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row">
+        <td>Vigor</td>
+        <td class="number-input">
+          <input type="number" name="system.skills.vigor.value" value="{{system.skills.vigor.value}}" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.vigor.e" {{#if system.skills.vigor.e}}checked{{/if}}>
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="system.skills.vigor.m" {{#if system.skills.vigor.m}}checked{{/if}}>
+        </td>
+      </tr>
+      <tr class="skill-row-template">
+        <td><input type="text" name="newSkillName" placeholder="Skill Name" class="skill-name"></td>
+        <td class="number-input">
+          <input type="number" name="newSkillValue" value="0" min="0" max="6" class="number-skill">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillE">
+        </td>
+        <td class="checkboxes">
+          <input type="checkbox" name="newSkillM">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

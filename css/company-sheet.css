@@ -1,0 +1,112 @@
+.reign-company-sheet {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.basic-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.company-attributes label,
+.company-actions .action,
+.company-status .status-update {
+  display: block;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.company-attributes {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.company-actions .action,
+.company-status .status-update {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.company-actions h3,
+.company-status .status-update p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .reign-company-sheet {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .basic-info p {
+    font-size: 14px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  .company-attributes label,
+  .company-actions .action,
+  .company-status .status-update {
+    font-size: 14px;
+  }
+
+  .company-actions h3,
+  .company-status .status-update p {
+    font-size: 18px;
+  }
+}

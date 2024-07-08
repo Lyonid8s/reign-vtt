@@ -1,0 +1,52 @@
+{
+  "id": "reign-vtt",
+  "title": "Reign",
+  "description": "The Reign system for FoundryVTT!",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Llew ap Hywel",
+      "discord": "Llew_ap_Hywel"
+    }
+  ],
+  "esmodules": [
+    "module/reign.mjs",
+    "module/actor.mjs",
+    "module/character-sheet.js",
+    "module/company-sheet.js",
+    "module/config.mjs",
+    "module/effects.mjs",
+    "module/handlebars-helpers.js",
+    "module/item.mjs",
+    "module/item-sheet.mjs",
+    "module/utils.js"
+  ],
+  "styles": [
+    "css/reign.css",
+    "css/character-sheet.css",
+    "css/company-sheet.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "background": "systems/reign-vtt/assets/background.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "manifest": "",
+  "download": ""
+}
